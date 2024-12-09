@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-y: none;
+}
+
+.ant-app > .ant-layout {
+  min-height: 100vh;
+}
+
+.ant-form.ant-form-vertical .ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.anticon-spin {
+  animation-duration: 0.3s;
+}
